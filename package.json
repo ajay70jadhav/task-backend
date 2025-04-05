@@ -4,13 +4,15 @@
   "main": "index.js",
   "scripts": {
     "start": "json-server ./data/db.json --port=10000",
-    "api": "json-server ./data/db.json --port=4040"
+    "api": "json-server ./data/db.json --port=4040",
+    "postinstall": "chmod +x node_modules/.bin/json-server"
+
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "description": "",
-  "dependencies": {
+  "devDependencies": {
     "bootstrap": "^5.3.3",
     "bootstrap-icons": "^1.11.3",
     "jquery": "^3.7.1",
