@@ -3,14 +3,9 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-  "start": "json-server ./data/db.json --port=10000"
-}
-,
-  "scripts": {
-  "start": "json-server ./data/db.json --port=10000",
-  "api": "json-server ./data/db.json --port=4040"
-}
-,
+    "start": "json-server ./data/db.json --port=10000",
+    "api": "json-server ./data/db.json --port=4040"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
@@ -23,3 +18,8 @@
     "json-server": "^1.0.0-beta.3"
   }
 }
+
+
+
+
+
